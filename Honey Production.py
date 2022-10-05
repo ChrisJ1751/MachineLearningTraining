@@ -32,6 +32,6 @@ X_future = np.array(range(2013, 2050))  # Creating array with NumPy to predict w
 X_future = X_future.reshape(-1, 1)  # Rotating this array, so it is a column instead of a row
 # print(X_future)
 
-future_predict = regr.predict(X_future)  # Predicting the future X values
+future_predict = regr.predict(X_future)  # Predicting the future X values.
 plt.plot(X_future, future_predict)  # Plotting the line for the future X values
 plt.show()  # Showing the plot output with everything above on the same output
